@@ -1,0 +1,21 @@
+Power Distrubution (PD) Board Components List,,,
+Component,Voltage,Description,Adafruit Part ID
+ TSR-1,12Vcc -> 5v,Transformer 1. Drops 12v to 5v for LED and USB power. 5A Draw Maximum.,ID: 1065
+,,,
+Upper Rail,12V,Upper Rail (Solder Points). 5A max (upper and lower rail combined).,ID: 1608
+Lower Rail,5v,Lower Rail (Solder Points). 5A max (upper and lower rail combined).,ID: 1608
+,,,
+Connector 1,12v,Connector 1 (Screw Ports),radioshack
+Connector 2,12v,Connector 2 (Screw Ports),radioshack
+Connector 3,12v,Connector 3 (Screw Ports),radioshack
+Connector 4,12v,Connector 4 (Screw Ports),radioshack
+Connector 5,5v,Connector 5 (Screw Ports),radioshack
+Connector 6,5v,Connector 6 (Screw Ports),radioshack
+,,,
+USB 1,5v,USB 1. No Data.,generic
+USB 2,5v,USB 2. No Data.,generic
+,,,
+Hardwire 1,5v,Hardwire 1. Intended for PWR LED,generic
+,,,
+Solder,***,Generic Rosin Core Solder (Fine Gague Prefered),generic
+Wire,***,"Generic 20G Solid Core Copper Wire. Red(+12), Black(-), Green(+5)",radioshack

@@ -1,0 +1,26 @@
+ATCS COMMAND LINE PROGRAM ARGUMENTS
+!invalid options are ignored
+
+Default Options:
+--client-mode -> Client Options
+--server-mode -> Server Options
+
+Client Options:
+void
+
+Server Options:
+--disable-broadcast
+--broadcast-server-port=PORT_NUMBER           ->  (0 < PORT_NUMBER < 65536)
+
+--control-server-port=PORT_NUMBER             ->  (0 < PORT_NUMBER < 65536)
+--server-certificate-directory=X509_CERT_DIR  ->  (File.isFile())
+
+--log-level=LOG_LEVEL                         ->  (0 <= LOG_LEVEL <= 5) [0 highest verbosity]
+
+LAST_KNOWN_GOOD_CONFIG:
+--server-mode
+--control-server-port=3000
+--server-certificate-directory="C:/Program Files (x86)/JetBrains/IntelliJ IDEA Community Edition 12.1.4/build.txt"
+--disable-broadcast
+--query-timeout=5000
+--log-level=0
