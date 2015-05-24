@@ -1,12 +1,14 @@
 package com.gmail.guyfleeman.atcs;
 
-import com.gmail.guyfleeman.atcs.client.CLController;
-import com.gmail.guyfleeman.atcs.common.CLIParser;
-import com.gmail.guyfleeman.atcs.common.Logger;
-import com.gmail.guyfleeman.atcs.turret.ATController;
+import com.gmail.guyfleeman.atcs.old.client.CLController;
+import com.gmail.guyfleeman.atcs.old.common.CLIParser;
+import com.gmail.guyfleeman.atcs.old.common.Logger;
+import com.gmail.guyfleeman.atcs.old.turret.ATController;
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
+
+import java.awt.*;
 
 /**
  * @author Will Stuckey
@@ -17,6 +19,8 @@ public class ATCSRunner
 {
 	public static void main(String[] args)
 	{
+		Toolkit.getDefaultToolkit().createImage(ATCSRunner.class.getResource("path"));
+
 		Logger systemLogger = new Logger();
 
 		CLIParser parser = new CLIParser(true);
