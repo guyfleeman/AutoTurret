@@ -1,6 +1,0 @@
-#java
-oracle-java7-jdk
-ant
-gradle
-
-#avr

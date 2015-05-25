@@ -34,9 +34,9 @@ libavcodec53
 libavformat53
 libavformat-dev
 libgstreamer0.10-0-dbg
-libgstreamer0.10-0 
+libgstreamer0.10-0
 libgstreamer0.10-dev
-libxine1-ffmpeg 
+libxine1-ffmpeg
 libxine-dev
 libxine1-bin
 libunicap2
